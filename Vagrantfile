@@ -27,8 +27,8 @@ boxes = [
 Vagrant.configure("2") do |config|
  
   config.vm.provider :"virtualbox"
-  config.vm.box = "gr-rocky8"
-  config.vm.box_url = "https://artifactory.globalrelay.net:443/artifactory/api/vagrant/vagrant-at/gr-rocky8/1.0.0/virtualbox-rocky8.5.box"
+  config.vm.box = "rocky8-image"
+  config.vm.box_url = "image link"
  
   
  boxes.each do |opts|
